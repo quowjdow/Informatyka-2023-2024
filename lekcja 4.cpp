@@ -5,11 +5,11 @@ int main() {
     // Wprowadz wartosci bokow x i y
     int x, y;
     
-    std::cout << "Podaj dlugosc boku x: ";
-    std::cin >> x;
+    cout << "Podaj dlugosc boku x: ";
+    cin >> x;
     
-    std::cout << "Podaj dlugosc boku y: ";
-    std::cin >> y;
+    cout << "Podaj dlugosc boku y: ";
+    cin >> y;
 
     // Rysowanie prostokata
     for (int i = 0; i < y; i++) {
@@ -20,4 +20,4 @@ int main() {
     }
 
     return 0;
-}
+}                                                                         
